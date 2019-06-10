@@ -17,7 +17,7 @@ p {
     font-weight: 100;
     font-style: oblique;
     font-size: 30px;
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
 }
 
 /* text transformation */
@@ -36,8 +36,20 @@ h3 {
     line-height: 1.5;
 }
 
+/* color */
 h4 {
     font-size: 30px;
     /* color: rgba(170, 205, 11); */
     color: #ffff00;
+}
+
+/* flaot, clear */
+
+img {
+    width: 50%;
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
