@@ -64,12 +64,19 @@ img {
     border-color: green;
     border: 10px dotted green;
     border-bottom: 10px solid red; */
-    width: 300px;
+    width: 200px;
     height: 200px;
     background-color: orange;
     color: #fff;
     font-size: 24px;
     border: 5px solid black;
-    padding: 30px 10px 2px 50px;
-    box-sizing: border-box;
+    margin: 50px auto 60px;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 5px solid yellow;
+    margin-top: 20px;
 }
