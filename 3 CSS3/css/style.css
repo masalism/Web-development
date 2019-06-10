@@ -24,4 +24,14 @@ p {
 
 h2 {
     text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+/* Text aligment and height */
+
+h3 {
+    text-align: justify;
+    font-size: 30px;
+    line-height: 1.5;
 }
