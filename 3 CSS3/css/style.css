@@ -80,3 +80,16 @@ img {
     border: 5px solid yellow;
     margin-top: 20px;
 }
+
+/* background image */
+.block-3 {
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    background-image: url(https://cdn.pixabay.com/photo/2019/06/05/06/42/flower-4253120_1280.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
