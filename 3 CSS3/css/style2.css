@@ -8,10 +8,36 @@
     background-image:radial-gradient(ellipse, yellow, green);
 }
 
+/* border radius nad box shadow */
 .block-2 {
     width: 200px;
     height: 200px;
     background: yellow;
     border: 5px solid grey;
     border-radius: 7px 49px 60px 100px;
+    margin: 50px;
+    box-shadow: inset 20px 40px 40px 30px rgba(0, 0, 0, .6), 0 40px 20px 50px grey;
+}
+
+/* opacity */
+.circle-1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    opacity: .6;
+    background-color: rgb(10, 0, 85);
+
+}
+
+.circle-2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgba(102, 241, 8, 0.5);
+    position: absolute;
+    top: 0;
+    left: 200px;
+    padding: 100px 0 0 60px;
+    box-sizing: border-box;
+    font-size: 30px;
 }
