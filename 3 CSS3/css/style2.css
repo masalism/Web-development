@@ -7,3 +7,11 @@
 
     background-image:radial-gradient(ellipse, yellow, green);
 }
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border: 5px solid grey;
+    border-radius: 7px 49px 60px 100px;
+}
