@@ -34,10 +34,27 @@
     width: 300px;
     border-radius: 50%;
     background-color: rgba(102, 241, 8, 0.5);
-    position: absolute;
     top: 0;
     left: 200px;
     padding: 100px 0 0 60px;
     box-sizing: border-box;
     font-size: 30px;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background: greenyellow;
+    border: 10px solid mediumaquamarine;
+    margin: 100px 0 0 200px;
+    transition: all 1s 1s ease;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.block-3:hover {
+    width: 400px;
+    height: 400px;
+    transform: rotateY(180deg);
 }
