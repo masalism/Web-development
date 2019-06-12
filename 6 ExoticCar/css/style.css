@@ -45,3 +45,91 @@ table {
 }
 
 /* ================BASE STYLE================= */
+
+body {
+    color: #fff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper {
+    width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* ================HEADER STYLE================= */
+
+.page-header {
+    height: 66px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.page-header .logo {
+    float: left;
+    padding-top: 23px;
+    box-sizing: border-box;
+}
+
+.page-header .main-nav {
+    float: right;
+}
+
+.main-nav li {
+    float: left;
+    margin-left: 19px;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 66px;
+}
+
+/* ================MAIN================= */
+
+/* ================Banner================= */
+.banner {
+    height: 612px;
+    background: url(../images/banner.png);
+    background-size: cover;
+    padding-top: 230px;
+    box-sizing: border-box;
+}
+
+.banner-block {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 300;
+    margin: 25px 0;
+}
+
+.learn-more {
+    display: block;
+    padding: 20px 30px;
+    color: inherit;
+    text-transform: uppercase;
+    background: #ca0500;
+    font-size: 14px;
+    text-decoration: none;
+    width: 166px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
